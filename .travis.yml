@@ -12,23 +12,7 @@ env:
 
 android:
   components:
-    #android sdk tools
-    - tools
-    - platform-tools
-    #buildTools version
-    - build-tools-$ANDROID_BUILD_TOOLS_VERSION
     
-    - android-$ANDROID_API_LEVEL
-    - android-$ANDROID_EMU_API_LEVEL
-    
-    # Additional components
-    - extra-google-google_play_services
-    - extra-google-m2repository
-    - extra-android-m2repository
-    - extra-android-support
-    
-    -sys-img-$ANDROID_ABI-google_apis-$ANDROID_EMU_API_LEVEL
-
   licenses:
       - 'android-sdk-preview-license-52d11cd2'
       - 'android-sdk-license-.+'
